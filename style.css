@@ -1,0 +1,177 @@
+/* elements */
+body {
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+img {
+  outline: #3882f6 solid;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #f9faf8;
+  font-weight: bold;
+}
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* class */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: auto;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #e5e7eb;
+  font-weight: bold;
+  font-size: xx-large;
+  flex: 1;
+  justify-content: flex-start;
+}
+.header.logo div {
+  padding: 15px;
+}
+.header.logo img {
+  width: 100px;
+  height: auto;
+  padding-left: 4%;
+  outline: none;
+}
+.header.links {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 25px;
+  align-self: center;
+}
+
+.section1 {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+  padding: 40px;
+}
+.section1.left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+  align-items: flex-start;
+  color: #e5e7eb;
+}
+.section1.left :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.section1.left button {
+  background-color: #3882f6;
+  align-self: flex-start;
+  justify-content: center;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.section1.right img {
+  height: auto;
+  width: 100%;
+  outline: none;
+  border-radius: none;
+  padding: 15px;
+}
+.section1.right {
+  padding: 0;
+  flex: 1;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+}
+.section2.title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 30px;
+}
+.section2.images {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 150px;
+  gap: 0 30px;
+  align-items: first baseline;
+  object-fit: cover;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+.section3 blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.section3 cite {
+  align-self: flex-end;
+  font-weight: bold;
+}
+.section4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 10px;
+  margin: 50px 100px;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+.section4.left {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.section4.left :first-child {
+  font-weight: bold;
+}
+.section4.button {
+  background-color: #3882f6;
+  outline: solid;
+  margin: 30px 10px;
+  align-self: center;
+  justify-content: center;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: #fff;
+  font-weight: bold;
+}
